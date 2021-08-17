@@ -1,0 +1,9 @@
+spring:
+  #config:
+  #  import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+  application:
+    name: cloud-native-batch-application
